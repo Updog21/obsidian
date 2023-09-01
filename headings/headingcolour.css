@@ -1,24 +1,61 @@
-/*for "Source mode" and "Live Preview"*/
+/*for "Source mode" and "Live Preview" H1 and H2*/
+.cm-header-1 {
+  color:#ffffff;
+  font-weight: 750;
+}
 
-.cm-header-1,
-.cm-header-2,
-.cm-header-3,
-.cm-header-4,
-.cm-header-5{
-  color:#7b68ee;
-  font-weight: 550;
+.cm-header-2 {
+  color:#8b79f0;
+  font-weight: 600;
 }
 
 
+/*for "Source mode" and "Live Preview"*/
+.cm-header-3,
+.cm-header-4,
+.cm-header-5 {
+  color:#8b79f0;
+  font-weight: 500;
+}
+
+
+/*for "Source mode" H1 and H2*/
+.markdown-preview-view h1 {
+  color:#ffffff;
+  font-weight: 750;
+}
+
+.markdown-preview-view h2 {
+  color:#8b79f0;
+  font-weight: 600;
+}
+
 
 /*for "Source mode"*/
-
-.markdown-preview-view h1,
-.markdown-preview-view h2,
 .markdown-preview-view h3,
 .markdown-preview-view h4,
-.markdown-preview-view h5{
-color: #7b68ee;
-font-weight: 550;
+.markdown-preview-view h5 {
+  color:#8b79f0;
+  font-weight: 500;
 
+}
+
+
+/* border for H1 and H2*/
+h1 {
+  color:#ffffff;
+  font-weight: 750;
+}
+
+h2 {
+  color:#8b79f0;
+  font-weight: 600;
+}
+
+/* slim down medium headers */
+h3,
+h4,
+h5 {
+  color:#8b79f0;
+  font-weight: 500;
 }
