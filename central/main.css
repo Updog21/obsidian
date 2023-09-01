@@ -2,19 +2,17 @@
 .theme-dark {
   /* ==highlights== */
   --text-highlight-bg: darkorchid;
-  /* vertical lines in lists */
-  --indentation-guide-color: cyan;
   /* active sidebar item */
-  --nav-item-background-active: #e67e00;
- 
+  --nav-item-background-active: #560788;
+  /* background*/
   --background-primary-alt: #3A404A;
 }
 
 /* Edit mode */
 .cm-s-obsidian pre.HyperMD-codeblock {     
   font-size: 16px;
-  font-weight: 800;
-  border-radius: 50px;
+  font-weight: 600;
+  border-radius: 10px;
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 2px;
@@ -24,11 +22,11 @@
 
 /* Preview mode */
 .markdown-preview-view code {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
-  border-radius: 50px;
-  padding-left: 8px;
-  padding-right: 8px;
+  border-radius: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
   padding-top: 2px;
   padding-bottom: 2px;
 
@@ -36,7 +34,7 @@
 
 .markdown-source-view.mod-cm6 .cm-line.HyperMD-codeblock {
   font-size: 18px;
-  font-weight: 550;
+  font-weight: 600;
   padding-top: 0rem;
 
 }
@@ -45,19 +43,19 @@
 /* Edit mode */
 .cm-inline-code {     
   font-size: 18px;
-  font-weight: 550;
-  border-radius: 50px;
-  padding-left: 8px;
-  padding-right: 8px;
+  font-weight: 600;
+  border-radius: 10px;
+  padding-left: 9px;
+  padding-right: 9px;
   padding-top: 2px;
   padding-bottom: 2px;
-
+}
 
 /* Preview mode */
 .cm-inline-code {
   font-size: 18px;
-  font-weight: 550;
-  border-radius: 12px;
+  font-weight: 600;
+  border-radius: 10px;
   padding-left: 9px;
   padding-right: 9px;
   padding-top: 2px;
@@ -78,20 +76,6 @@
 .markdown-preview-view mark {
   padding: 2px;
 }
-
-/* border for big headers */
-h1,
-h2 {
-  border-bottom: 1px solid white;
-  font-weight: 600;
-}
-
-/* slim down medium headers */
-h3,
-h4 {
-  font-weight: lighter;
-}
-
 
 
 /* centered images */
@@ -126,10 +110,10 @@ img {
 /* format metadata box */
 .frontmatter-container {
   /* nice background box */
-  background-color: var(--background-secondary-alt);
+  background-color: var(--background-primary-alt);
   /* reduce bottom padding */
   padding: var(--size-4-2) 0 var(--size-4-2) 5px;
-  border-radius: 5px;
+  border-radius: 12px;
 }
 
 .frontmatter-section {
